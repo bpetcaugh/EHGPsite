@@ -1,0 +1,131 @@
+????????????
+time() or mktime()
+
+need both below
+
+
+ 
+
+So to conclude: The best solution is to implement a session timeout on your own. Use a simple time stamp that denotes the time of the last activity (i.e. request) and update it with every request:
+if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 1800)) { 
+    // last request was more than 30 minates ago 
+    session_destroy();   // destroy session data in storage 
+    session_unset();     // unset $_SESSION variable for the runtime 
+} 
+$_SESSION['LAST_ACTIVITY'] = time(); // update last activity time stamp 
+
+ Updating the session data with every request does also change the session file’s modification date so that the session is not removed by the garbage collector prematurely.
+
+You can also use an additional time stamp to regenerate the session ID periodically to avoid attacks on sessions like session fixation:
+if (!isset($_SESSION['CREATED'])) { 
+    $_SESSION['CREATED'] = time(); 
+} else if (time() - $_SESSION['CREATED'] > 1800) { 
+    // session started more than 30 minates ago 
+    session_regenerate_id(true);    // change session ID for the current session an invalidate old session ID 
+    $_SESSION['CREATED'] = time();  // update creation time 
+} 
+
+=================================================================================
+
+
+Login.php
+<?php 
+session_start(); 
+?> 
+ 
+<html> 
+<form name="form1" method="post"> 
+<table> 
+<tr><td>Username </td><td><input type="text" name="text1"></td></tr> 
+<tr><td>Password</td><td><input type="password" name="pwd"></td></tr> 
+<tr><td><input type="submit" value="SignIn" name="submit1"> </td></tr> 
+</table> 
+</form> 
+</html> 
+ 
+<?php 
+if($_POST['submit1']) 
+{ 
+$v1 = "FirstUser"; 
+$v2 = "MyPassword"; 
+$v3 = $_POST['text']; 
+$v4 = $_POST['pwd']; 
+if($v1 == $v3 && $v2 == $v4) 
+{ 
+$_SESSION['luser'] = $v1; 
+$_SESSION['start'] = time(); // taking now logged in time 
+$_SESSION['expire'] = $_SESSION['start'] + (30 * 60) ; // ending a session in 30     minutes from the starting time 
+header('Location: http://localhost/somefolder/homepage.php'); 
+} 
+else 
+{ 
+echo "Please enter Username or Passwod again !"; 
+} 
+ 
+} 
+?> 
+
+
+HomePage.php
+    <?php 
+session_start(); 
+ 
+if(!isset($_SESSION['luser'])) 
+{ 
+    echo "Please Login again"; 
+    echo "<a href='http://localhost/somefolder/login.php'>Click Here to Login</a>"; 
+ 
+} 
+else 
+{ 
+ 
+    $now = time(); // checking the time now when home page starts 
+ 
+    if($now > $_SESSION['expire']) 
+    { 
+        session_destroy(); 
+        echo "Your session has expire ! <a href='http://localhost/somefolder/login.php'>Login Here</a>"; 
+    } 
+    else 
+    { //starting this else one [else1] 
+ 
+?> 
+ 
+ 
+<!-- From here all HTML Coding can be done --> 
+ 
+ 
+<html> 
+Welcome <?php echo $_SESSION['luser'];  
+        echo "<a href='http://localhost/somefolder/logout.php'>LogOut</a>"; 
+        ?> 
+</html> 
+ 
+<?php 
+ } 
+} 
+?> 
+
+
+
+
+
+LogOut.php
+<?php 
+session_start(); 
+session_destroy(); 
+header('Location: http://localhost/somefolder/login.php'); 
+?> 
+
+
+
+ 
+OTHER=============================================================================================
+if(isSet($_SESSION['started'])){ 
+  if((mktime() - $_SESSION['started'] - 60*30) > 0){ 
+    //logout, destroy session etc 
+  } 
+}else{ 
+  $_SESSION['started'] = mktime(); 
+} 
+ 

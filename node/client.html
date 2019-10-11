@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>EHGP Emergency Attendance</title>
+		<style>
+			dd,dt {
+				float:left;
+				margin:0;
+				padding:5px;
+				clear:both;
+				display:block;
+				width:100%;
+			}
+			dt {
+				background:#ddd;
+			}
+			time {
+				color:gray;
+			}
+		</style>
+	</head>
+	<body>
+  
+  <div id="container">Loading ...</div>
+		<time></time>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+        // create a new websocket
+        var socket = io.connect('http://ehgp.holyghostprep.org:2429');
+        // on message received we print all the data inside the #container div
+        socket.on('notification', function (stuff) {
+        var List = "<table>";
+        $.each(stuff.data,function(index,info){
+			if(info.present == 0)
+				List += "<tr bgcolor=red><td>";
+			else
+				List += "<tr bgcolor=green><td>";
+			List += info.id + "</td><td data=" + info.id + " OnClick='sendEmit(this);'>" + info.name + "</td><td>" + info.present + "</td></tr>";
+        });
+        List += "</table>";
+        $('#container').html(List);
+   
+        $('time').html('Last Update:' + stuff.time);
+      });
+	  
+	  //on click send data to server
+	  //$(document).ready(function(){
+				function sendEmit(data){
+					socket.emit('client_data', {letter : $(data).attr('data')});
+				}
+		//});
+    </script>
+    </body>
+</html>

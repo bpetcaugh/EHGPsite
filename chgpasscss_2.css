@@ -1,0 +1,105 @@
+/*Adapted by Fred Kummer '13*/
+a.boldbuttons, input.boldbuttons{
+background: transparent url(roundedge-gray-left.gif) no-repeat top left;
+display: block;
+float: center;
+font: bold 13px Arial; /* Change 13px as desired */
+line-height: 22px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 30px) */
+height: 30px; /* Height of button background height */
+padding-left: 8px; /* Width of left menu image */
+text-decoration: none;
+}
+
+a:link.boldbuttons, a:visited.boldbuttons {
+color: white; /*button text color*/
+}
+
+a:hover.boldbuttons, input:hover.boldbuttons {
+background: transparent url(roundedge-red-left.gif) no-repeat top left;
+display: block;
+float: center;
+font: bold 13px Arial; /* Change 13px as desired */
+line-height: 22px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 30px) */
+height: 30px; /* Height of button background height */
+padding-left: 8px; /* Width of left menu image */
+text-decoration: none;
+}
+
+a:hover.boldbuttons span, input:hover.boldbuttons span {
+background: transparent url(roundedge-red-right.gif) no-repeat top right;
+display: block;
+padding: 4px 10px 4px 2px; /*Set 10px to be equal or greater than'padding-left' value above*/
+}
+
+a:active.boldbuttons, input:active.boldbuttons {
+background: transparent url(roundedge-redflip-left.gif) no-repeat top left;
+display: block;
+float: center;
+font: bold 13px Arial; /* Change 13px as desired */
+line-height: 22px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 30px) */
+height: 30px; /* Height of button background height */
+padding-left: 8px; /* Width of left menu image */
+text-decoration: none;
+border: none;
+}
+
+a:active.boldbuttons span, input:active.boldbuttons span {
+background: transparent url(roundedge-redflip-right.gif) no-repeat top right;
+display: block;
+padding: 4px 10px 4px 2px; /*Set 10px to be equal or greater than'padding-left' value above*/
+border: none;
+}
+
+a.boldbuttons span, input.boldbuttons span{
+background: transparent url(roundedge-gray-right.gif) no-repeat top right;
+display: block;
+padding: 4px 10px 4px 2px; /*Set 10px to be equal or greater than'padding-left' value above*/
+}
+
+/*Adapted from code from http://www.codeassembly.com/How-to-make-a-password-strength-meter-for-your-register-form/ */
+
+#passwordStrength{
+        height:10px;
+        display:block;
+        float:left;
+}
+
+
+
+.strength0{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:250px;
+    background:#cccccc;
+}
+
+
+
+.strength1{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50px;
+    background:#ff0000;
+}
+
+
+
+.strength2{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:150px;
+    background:#56e500;
+}
+
+
+
+.strength3{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    background:#399800;
+    width:250px;
+}

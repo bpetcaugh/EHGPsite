@@ -1,0 +1,14 @@
+Last Updated: May 16th. edited: Vincent Pillinger
+
+1) a)make sure Css has centered class for <h1>through<h6>
+   b)make sure so that there is no use of align in any of the pages
+
+2)make sure include "IncludeInc_2" is below any call to redirect
+
+3)function makeButton($message, $link) has been added to includeInc_2 for convienence.
+	Input is the message to be displayed on the button and the place that the button links too.
+	3a) All buttons should be made with the makeButton function
+	3b) The index page should use the function, it currently does not
+4)Buttons currently use the <a> tag. They should use <a class=button> (or similar) tag.
+	4a) the <a> tag should be formatted to be white (or readable color) 
+		so that all links are white and readable.

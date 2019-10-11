@@ -1,0 +1,269 @@
+body {
+  /* background-image: url(background.png);
+  background-size: 700px; */
+  background: #3f3f3f;
+}
+
+.header-top {
+}
+
+.close {
+  color: white !important;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+span:hover {
+  color: white;
+}
+
+.img-logo {
+}
+
+.scroll-line {
+  background: #2b2b2b !important;
+}
+
+.footer-bottom {
+  color: lightgrey !important;
+}
+
+.center {
+  color: lightgrey;
+}
+
+.announcements-btns{
+}
+
+.btn {
+  background: #2b2b2b !important;
+  border: solid 2px  #1c1c1c;
+}
+
+.btn:hover {
+  border-color: transparent;
+  box-shadow: 0 0 0 0.1rem #2b2b2b;
+}
+
+.btn:focus{
+  box-shadow: none !important;
+}
+
+.btn:active {
+  background: #590b0b;
+  border-color: transparent;
+  box-shadow: none;
+  border: solid 2px #2b2b2b !important;
+  outline: none !important;
+}
+
+
+.remove {
+}
+
+hr {
+  border-color: #2b2b2b;
+}
+
+.navbar-nav>li {
+}
+
+.navbar {
+}
+
+.bg-light {
+  background-color: #590b0b !important;
+}
+
+.form-inline .form-control {
+}
+
+.card-container {
+  /* display: none; */
+}
+
+.card {
+}
+
+.card-header {
+  border: solid 0.15rem #1c1c1c !important;
+  /* border-bottom-width: 0 !important; */
+}
+
+.card-body {
+  background: lightgrey;
+  border: solid 0.15rem #1c1c1c;
+  border-top: none;
+  border-radius: 0.5rem !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar {
+  }
+  .navbar-nav>li {
+  }
+  .search-box {
+  }
+  .but {
+  }
+}
+
+.text-center {
+}
+
+.card-header {
+  background-color: #2b2b2b !important;
+  color: white;
+}
+
+.modal-header {
+  background-color: #2b2b2b !important;
+  color: white;
+}
+
+.close {
+  color: white;
+}
+
+.close:hover {
+  color: gray;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.navbar-toggler2 {
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+}
+
+option {
+  background: white;
+}
+
+#searchbar::placeholder {
+  text-align: left;
+  color: #495057;
+}
+
+#searchbar {
+  color: #495057;
+}
+
+.picture {
+}
+
+.previous {
+  background-color: transparent;
+  color: grey;
+}
+
+.previous:hover {
+  color: grey;
+}
+
+.file-upload {}
+
+.add_announcement_date {
+}
+
+.drag {
+}
+
+/* The switch - the box around the slider */
+
+.switch {
+}
+
+/* Hide default HTML checkbox */
+
+.switch input {
+}
+
+/* The slider */
+
+.slider {
+  background-color: #ccc;
+  color: white;
+}
+
+.slider:before {
+  background-color: white;
+}
+
+input:checked+.slider {
+  background-color: #90110d;
+}
+
+input:focus+.slider {}
+
+input:checked+.slider:before {
+}
+
+/* Rounded sliders */
+
+.slider.round {
+}
+
+.slider.round:before {
+}
+
+.dot{
+  width:10px;
+  max-width: 10px;
+  height:10px;
+  max-height: 10px;
+  position:absolute;
+  background-size: cover;
+  top: 0;
+  background: url('fallingLeaves/fallingLeaf.png');
+  background-size: 100% 100%;
+}
+
+.setting-label{
+}
+
+input#settings-bg-color{
+}
+
+table#settings-table{
+}
+
+table#settings-table td{
+}
+
+table#settings td:nth-child(even){
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar {
+  }
+  .navbar-nav>li {
+  }
+  .search-box {
+  }
+  .picture {
+  }
+  .drag {
+  }
+}
+
+img::selection{
+  background: transparent;
+}
+
+
+br::selection{
+  background: transparent;
+}
+
+::selection{
+  background: #90110db5;
+  color: white;
+}
