@@ -77,23 +77,13 @@
 <link rel="stylesheet" type="text/css" href="css_2.css" />
 </head>
 <body bgcolor=#CCCCCC>
-        <form action=login_2.php?announcement=' ' method='post' name='theForm'>
+       	 <form action=login_2.php?announcement=' ' method='post' name='theForm'>
                         <!--Username: <input type='text' name='username' /><br>change made here 10-03-13//--> 
             Username: <input type='text' name='username' onChange="javascript:this.value=this.value.toLowerCase();"/><br><!--change made here 10-03-13//--> 
             Password: <input type='password' name='password' /><br>
             <input type=submit name=submit value=Login>
-			
+<p></p>
 
-<td class="centered" colspan=2><a class="glossy-button blue" href="index_2.php">Home</a></td>
-			<td width="50%"></td>
-
-<form action='http://cs.holyghostprep.org/students/nmadaio/EHGPNEW/EHGPhome.php' style='display:inline-block'><input style='display:inline-block' type='submit' class='btn btn-primary announcements-btns' value='Login'>Home</form>
-<form action='' style='display:inline-block'><input style='display:inline-block' type='submit' class='btn btn-primary announcements-btns' value='Login'>Logout</form>
-
-		</tr>
-		<tr class="centeredButton"><td width="50%"></td>
-			
-			<td class="centered" colspan=2><a class="glossy-button blue" href="logout_2.php">Logout</a></td>
-			<td width="50%"></td>
+<form action='http://cs.holyghostprep.org/students/nmadaio/EHGPNEW/EHGPhome.php' style='display:inline-block'><input style='display:inline-block' type='submit' class='btn btn-primary announcements-btns' value='Home'></form>
 	</body>
 </html>
