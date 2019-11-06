@@ -44,7 +44,7 @@
 		<link rel="stylesheet" href="themes/style.css" type="text/css">
     </head>           <body>
                             
-                    <center><img src="logo.png" class="headerMap" usemap="#headermap" alt="Holy Ghost Prep"/><center>
+                    <center><p></p><img src="logo.png" class="headerMap" usemap="#headermap" alt="Holy Ghost Prep"/><center>
 
                     <!--<map name="headermap">
                         <area shape="rect" coords="225,34,615,123" href="http://www.holyghostprep.org" alt="HGP Home" />
