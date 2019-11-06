@@ -36,7 +36,7 @@
 			width: 170px;
 			top: -75px;
 			border-radius: 50%;
-			background: whitesmoke ;
+			background: transparent;
 			padding: 10px;
 			text-align: center;
 		}
@@ -75,6 +75,9 @@
 		.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
 			background-color: darkblue!important;
 		}
+		.topnav-centered{
+  		
+		}
     </style>
     
 <head>
@@ -84,6 +87,23 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 </head>
 <!--Coded with love by Mutiullah Samim-->
+<header>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+  <div class="topnav-centered">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Calendar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Announcements</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Bell Schedules</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+</header>
 <body>
 	<div class="container h-100">
 		<div class="d-flex justify-content-center h-100">
