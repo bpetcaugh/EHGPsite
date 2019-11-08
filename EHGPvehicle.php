@@ -44,7 +44,7 @@
 		<link rel="stylesheet" href="themes/style.css" type="text/css">
     </head>           <body>
                             
-                    <center><img src="logo.png" class="headerMap" usemap="#headermap" alt="Holy Ghost Prep"/><center>
+                    <center><p></p><img src="logo.png" class="headerMap" usemap="#headermap" alt="Holy Ghost Prep"/><center>
 
                     <!--<map name="headermap">
                         <area shape="rect" coords="225,34,615,123" href="http://www.holyghostprep.org" alt="HGP Home" />
@@ -140,15 +140,11 @@
     </form>
 <tr class="centeredButton"><td width="50%"></td>
 			
-			<td class="centered" colspan=2><a class="glossy-button blue" href="index_2.php">Home</a></td>
-			<td width="50%"></td>
-			
-		</tr>
-		<tr class="centeredButton"><td width="50%"></td>
-			
-			<td class="centered" colspan=2><a class="glossy-button blue" href="logout_2.php">Logout</a></td></center>
-			<td width="50%"></td>
-			
+<form action='http://cs.holyghostprep.org/students/nmadaio/EHGPNEW/EHGPhome.php' style='display:inline-block'><input style='display:inline-block' type='submit' class='btn btn-primary announcements-btns' value='Home'></form>
+
+<form action='http://cs.holyghostprep.org/students/nmadaio/EHGPNEW/logout_2.php' style='display:inline-block'><input style='display:inline-block' type='submit' class='btn btn-primary announcements-btns' value='Logout'></form>
+
+		
 		</tr>                
 	<!--</tr>//-->
         <!--</table> //-->
