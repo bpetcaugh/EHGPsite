@@ -1,0 +1,262 @@
+body {
+  /* background-image: url(background.png);
+  background-size: 700px; */
+  background: #fff1db;
+}
+
+.header-top {
+}
+
+.close {
+  color: white !important;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+span:hover {
+  color: white;
+}
+
+.img-logo {
+}
+
+.scroll-line {
+  background: #7f381e !important;
+}
+
+.footer-bottom {
+  color: #b9532d !important;
+}
+
+.center {
+  color: #b9532d !important;
+}
+
+.announcements-btns{
+}
+
+.btn {
+  background: #b9532d !important;
+}
+
+.btn:hover {
+  border-color: transparent;
+  box-shadow: 0 0 0 0.1rem #b9532d;
+}
+
+.btn:focus{
+  box-shadow: none !important;
+}
+
+.btn:active {
+  background: #90110d !important;
+  border-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+  /* box-shadow: 0 0 0 0.1rem #b9532d !important; */
+}
+
+.remove {
+}
+
+hr {
+  border-color: #b9532d;
+}
+
+.navbar-nav>li {
+}
+
+.navbar {
+}
+
+.bg-light {
+  background-color: #8e1313 !important;
+}
+
+.form-inline .form-control {
+}
+
+.card-container {
+  /* display: none; */
+}
+
+.card {
+}
+
+.card-header {
+  border: solid 0.15rem #7f381e !important;
+  /* border-bottom: none !important; */
+}
+
+.card-body {
+  background: whitesmoke;
+  border: solid 0.15rem grey;
+  border-top: none;
+  border-radius: 0.5rem !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar {
+  }
+  .navbar-nav>li {
+  }
+  .search-box {
+  }
+  .but {
+  }
+}
+
+.text-center {
+}
+
+.card-header {
+  background-color: #b9532d !important;
+  color: white;
+}
+
+.modal-header {
+  background-color: #b9532d !important;
+  color: white;
+}
+
+.close {
+  color: white;
+}
+
+.close:hover {
+  color: gray;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.navbar-toggler2 {
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+}
+
+option {
+  background: white;
+}
+
+#searchbar::placeholder {
+  text-align: left;
+  color: #495057;
+}
+
+#searchbar {
+  color: #495057;
+}
+
+.picture {
+}
+
+.previous {
+  background-color: transparent;
+  color: grey;
+}
+
+.previous:hover {
+  color: grey;
+}
+
+.file-upload {}
+
+.add_announcement_date {
+}
+
+.drag {
+}
+
+/* The switch - the box around the slider */
+
+.switch {
+}
+
+/* Hide default HTML checkbox */
+
+.switch input {
+}
+
+/* The slider */
+
+.slider {
+  background-color: #ccc;
+  color: white;
+}
+
+.slider:before {
+  background-color: white;
+}
+
+input:checked+.slider {
+  background-color: #90110d;
+}
+
+input:focus+.slider {}
+
+input:checked+.slider:before {
+}
+
+/* Rounded sliders */
+
+.slider.round {
+}
+
+.slider.round:before {
+}
+
+.leaf{
+  position: absolute;
+  height: 4vh;
+  width: 4vw;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+
+.setting-label{
+}
+
+input#settings-bg-color{
+}
+
+table#settings-table{
+}
+
+table#settings-table td{
+}
+
+table#settings td:nth-child(even){
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar {
+  }
+  .navbar-nav>li {
+  }
+  .search-box {
+  }
+  .picture {
+  }
+  .drag {
+  }
+}
+img::selection{
+  background: transparent;
+}
+
+
+br::selection{
+  background: transparent;
+}
+
+::selection{
+  background: #90110db5;
+  color: white;
+}
