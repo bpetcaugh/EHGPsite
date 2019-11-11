@@ -5,11 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta charset="utf-8">
-        <meta name="description" content="Holy Ghost Prep Announcement Page">
+        <meta name="description" content="Holy Ghost Prep Tutor Page">
         <link rel="shortcut icon" href="favicon.ico">
 
 
-        <title>EHGP Home</title>
+        <title>EHGP Tutoring</title>
 	<head>
         <!-- JQuery and AJAX -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -42,10 +42,9 @@
         </script>
         <link rel="stylesheet" href="themes/main.css">
 		<link rel="stylesheet" href="themes/style.css" type="text/css">
-    </head>           <body>
-                            
-                    <center><p></p><img src="logo.png" class="headerMap" usemap="#headermap" alt="Holy Ghost Prep"/><center>
-
+    </head>        <body>
+                    
+		<center><p></p><img src="logo.png" class="headerMap" usemap="#headermap" alt="Holy Ghost Prep"/></center>
                     <!--<map name="headermap">
                         <area shape="rect" coords="225,34,615,123" href="http://www.holyghostprep.org" alt="HGP Home" />
                         <area shape="circle" coords="161,70,65" href="http://www.holyghostprep.org" alt="HGP Home" /> 
@@ -61,54 +60,50 @@
                         <area shape="rect" coords="1028,125,1135,144" href="http://www.holyghostprep.org/page.cfm?p=5" alt="Alunmi & Parents" />
                     </map> -->
             </td>
-            
-           <center><h1 class='centered'>Register a Vehicle or Request a Permit</h1>
-
-    <script type='text/javascript'>
+	<!--<tr>
+            <td></td>
+            <td></td>
+        </tr>-->
+    </table>
+        s
+           <center><h1 class='centered'>Request an NHS Tutor</h1>    <script type='text/javascript'>
 
     function refresh()
     {
         var formObject = document.forms['theForm'];
         formObject.submit();
-        formObject.action = "parkingpermit_2.php";
+        formObject.action = "NHSTutorSubmit_2.php";
     }
 
     //Confirms that all fields on form are filled out before submitting; alerts user if false
     function validateForm()
     {
-        //var studentid=document.forms["theForm"]["studentid"].value;
-        var make = document.forms["theForm"]["make"].value;
-        var model = document.forms["theForm"]["model"].value;
-        var year = document.forms["theForm"]["year"].value;
-        var color = document.forms["theForm"]["color"].value;
-        var licenseplate = document.forms["theForm"]["licenseplate"].value;
-        //var email=document.forms["theForm"]["email"].value;
+        var email = document.forms["theForm"]["email"].value;
+		var class1 = document.forms["theForm"]["class1"].value;
+		var desc = document.forms["theForm"]["desc"].value;
+		var period = document.forms["theForm"]["period"].value;
+        
 
         var s = "";
 
         //Where there is a value missing, s adds onto itself that box's error message
 
-        if (make == null || make == "")
+        if (class1 == null || class1 == "0")
         {
-            s = s + "Car make must be filled out.\n";
+            s = s + "Class must be filled out.\n";
         }
-        if (model == null || model == "")
+		if (desc == null || desc == "")
         {
-            s = s + "Car model must be filled out.\n";
+            s = s + "Description must be filled out.\n";
         }
-        if (year == null || year == "")
+		if (email == null || email == "")
         {
-            s = s + "Year must be filled out.\n";
+            s = s + "Email must be filled out.\n";
         }
-        if (color == null || color == "")
+		if (period == null || period == "")
         {
-            s = s + "Car color must be filled out.\n";
+            s = s + "You must select a period.\n";
         }
-        if (licenseplate == null || licenseplate == "")
-        {
-            s = s + "License plate must be filled out.\n";
-        }
-
         //If s is still blank, all boxes have been filled, and the form is submitted
         //If not, the value of s is printed in the alert box, and the form is not submitted
         if (s == "")
@@ -129,25 +124,38 @@
     }
 </script>
 
-<table class='centered'>
-
-    <form id='theForm' name='theForm' onsubmit='return validateForm()' method='post' action='submitpp_2.php'>
-        <!--If at least one field is blank, the form wont submit-->
-        <center><tr><td>Your Student ID is 20127<br /><br /><input type=hidden name=student value=20127></td></tr><tr><td><table class='centered'><tr><td>Vehicle Make:<input type='text' name='make' value=''/></td><td>Vehicle Year:<input type='text' name='year' value=''/></td></tr><tr><td>Vehicle Model:<input type='text' name='model' value=''/></td><td>Vehicle Color:<input type='text' name='color' value=''/></td></tr><tr><td>License Plate: <input type='text' name='licenseplate' value=''></td></tr></table><br/>Current Permit Number: <input type='text' name='existingnumber' value=''><br/>Note: Leave this field blank if you do not have a current parking permit.<br /><br />Remember you must also see the Dean of Discipline with your $5 to finish this process.<br /><br />
+    <form id='theForm' name='theForm' onsubmit='return validateForm()' method='post' action='NHSTutorSubmit_2.php'>
+        <!--If at least one field is blank, the form won't submit-->
+        <tr><td>Your Student ID is 20127<br /><br /><input type=hidden name=student value=20127></td></tr><tr><td><table class='centered'><tr><td>What class do you need help with?<select name=class1><option value=0>Select a Class</option><option value='AP Calc AB Colapinto;jcolapinto@holyghostprep.org
+'>AP Calc AB</option><option value='CmpSc AdvTop Petcaugh;
+'>CmpSc AdvTop</option><option value='Engineering I Bushek;
+'>Engineering I</option><option value='AP Comp Sci Principles Petcaugh;
+'>AP Comp Sci Principles</option><option value='Jazz Band Vilsmeier;bvilsmeier@holyghostprep.org
+'>Jazz Band</option><option value='Wld Lt I Hon Goulet;jgoulet@holyghostprep.org
+'>Wld Lt I Hon</option><option value='Question of God Nunez;tnunez@holyghostprep.org
+'>Question of God</option><option value='Col Guid Sr Iuliano;kiuliano@holyghostprep.org
+'>Col Guid Sr</option><option value='Wld Lt II Hon Goulet;jgoulet@holyghostprep.org
+'>Wld Lt II Hon</option><option value='Soc Just Nunez;tnunez@holyghostprep.org
+'>Soc Just</option></select></td></tr><tr><td>Describe what you need help with:</td></tr><tr><td><textarea rows=4 cols=50 name=desc></textarea></td></tr><tr><td>Enter your email: <input type='email' name='email'></td></tr><tr><td><br>Please select which period and tutor you would like to meet with:<br></td></tr><tr><td><table class='centered' border=1><tr><td>Thursday (2019-11-07)<br>G Day<br><input type=radio name=period value='G3'>Period 3 NHS tutor not available.<br><input type=radio name=period value='G9'>Period 9 <select name=G9><option value='Dan Behr*'>Dan Behr*</option><option value='Mitchell Feyl***'>Mitchell Feyl***</option><option value='Sean Parsons*'>Sean Parsons*</option><option value='Zachary Posivak'>Zachary Posivak</option><option value='Joe Dryden'>Joe Dryden</option><option value='Jack Nycz'>Jack Nycz</option><option value='Brendan McManus'>Brendan McManus</option><option value='Nicholas Madaio***'>Nicholas Madaio***</option><option value='Krishna Mysore*'>Krishna Mysore*</option><option value='Aidan Bell'>Aidan Bell</option><option value='Jack Erickson***'>Jack Erickson***</option></select><br></td><td>Friday (2019-11-08)<br>H Day<br><input type=radio name=period value='H3'>Period 3 NHS tutor not available.<br></td><td>Monday (2019-11-11)<br>A Day<br><input type=radio name=period value='A3'>Period 3 NHS tutor not available.<br></td></tr></table><tr><td>* - Spanish Tutors<br>** - French Tutors<br>*** - Latin Tutors</td></tr></table>		<br>
         <input type='submit' name='submit' value='Submit' onclick='send()'/>
-        <input type='button' name='cancel' value='Cancel' onclick='self.location = "viewmypermit_2.php"'/><br/><br/><br/><br/>
-        </td></tr>;
+        <input type='button' name='cancel' value='Cancel' onclick='self.location = "login_2.php"'/><br/><br/><br/><br/>
+        </td></tr>
     </form>
 <tr class="centeredButton"><td width="50%"></td>
 			
 <form action='http://cs.holyghostprep.org/students/nmadaio/EHGPNEW/EHGPhome.php' style='display:inline-block'><input style='display:inline-block' type='submit' class='btn btn-primary announcements-btns' value='Home'></form>
 
+			<td width="50%"></td>
+			
+		</tr>
+		<tr class="centeredButton"><td width="50%"></td>
+
 <form action='http://cs.holyghostprep.org/students/nmadaio/EHGPNEW/logout_2.php' style='display:inline-block'><input style='display:inline-block' type='submit' class='btn btn-primary announcements-btns' value='Logout'></form>
 
-		
-		</tr>                
-	<!--</tr>//-->
+			<td width="50%"></td>
+			
+		</tr></table>  </center>
+                        <!--</tr>//-->
         <!--</table> //-->
-</center>
         </body>
         </html>
