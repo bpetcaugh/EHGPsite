@@ -48,7 +48,7 @@
                     <!--<map name="headermap">
                         <area shape="rect" coords="225,34,615,123" href="http://www.holyghostprep.org" alt="HGP Home" />
                         <area shape="circle" coords="161,70,65" href="http://www.holyghostprep.org" alt="HGP Home" /> 
-
+y
                         <area shape="rect" coords="695,9,788,24" href="http://www.holyghostprep.org/page.cfm?p=317" alt="News And Events" />
                         <area shape="rect" coords="815,9,909,24" href="http://www.holyghostprep.org/page.cfm?p=76" alt="Donate to HGP" />
                         <area shape="rect" coords="931,9,988,24" href="http://www.holyghostprep.org/page.cfm?p=299" alt="Calender" />
@@ -126,7 +126,7 @@
 
     <form id='theForm' name='theForm' onsubmit='return validateForm()' method='post' action='NHSTutorSubmit_2.php'>
         <!--If at least one field is blank, the form won't submit-->
-        <tr><td>Your Student ID is 20127<br /><br /><input type=hidden name=student value=20127></td></tr><tr><td><table class='centered'><tr><td>What class do you need help with?<select name=class1><option value=0>Select a Class</option><option value='AP Calc AB Colapinto;jcolapinto@holyghostprep.org
+        <tr><td><br /><input type=hidden name=student value=20127></td></tr><tr><td><table class='centered'><tr><td>What class do you need help with?<select name=class1><option value=0>Select a Class</option><option value='AP Calc AB Colapinto;jcolapinto@holyghostprep.org
 '>AP Calc AB</option><option value='CmpSc AdvTop Petcaugh;
 '>CmpSc AdvTop</option><option value='Engineering I Bushek;
 '>Engineering I</option><option value='AP Comp Sci Principles Petcaugh;
