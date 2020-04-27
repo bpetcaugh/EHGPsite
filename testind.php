@@ -1,4 +1,5 @@
 <?php 
+session_start(); 
 $servername = "localhost";
 $username = "ehgp_user";
 $password = "ehgp_password";
