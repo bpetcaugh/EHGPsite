@@ -121,7 +121,7 @@ if (isset($_POST['password'])) {
 }
 
 include 'includeInc_2.php';
-dohtml_header("Login");
+
 ?>
 <!DOCTYPE html>
 <html>

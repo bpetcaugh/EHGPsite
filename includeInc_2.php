@@ -33,7 +33,7 @@ function dohtml_header($title) {
                     </td>
                     <td class='headerCenter'>
                 
-                    <img src="Header1.jpg" class="headerMap" usemap="#headermap" alt="Holy Ghost Prep"/>
+                    <!--<img src="Header1.jpg" class="headerMap" usemap="#headermap" alt="Holy Ghost Prep"/> -->
                     <!--<map name="headermap">
                         <area shape="rect" coords="225,34,615,123" href="http://www.holyghostprep.org" alt="HGP Home" />
                         <area shape="circle" coords="161,70,65" href="http://www.holyghostprep.org" alt="HGP Home" /> 
