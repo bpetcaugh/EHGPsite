@@ -1,0 +1,263 @@
+body {
+  /* background-image: url(background.png);
+  background-size: 700px; */
+  background: rgb(255, 255, 255);
+  overflow-y: auto;
+}
+
+.header-top {
+  position: relative;
+  background: rgb(255, 255, 255);
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 125px;
+}
+
+.close {
+  color: white !important;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+span:hover {
+  color: white;
+}
+
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+.scroll-line {
+  height: 5px;
+  background: #112951;
+  width: 0%;
+  clear: both;
+}
+
+.footer-bottom {
+  color: #495057 !important;
+  font-size: 15px;
+}
+
+.center {
+  color: #1d376a !important;
+  text-align: center;
+}
+
+.btn {
+  background: #153568;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: solid 2px transparent;
+  transition: box-shadow 0.25s;
+}
+
+.btn:hover {
+  background: #90110d;
+  border-color: transparent;
+  box-shadow: 0 0 0 0.1rem #90110d;
+}
+
+.btn:focus {
+  background: #90110d;
+  border-color: transparent;
+  box-shadow: 0 0 0 0.1rem #90110d;
+}
+
+.btn:active{
+  background: #90110d;
+  border-color: transparent;
+  box-shadow: 0 0 0 0.1rem #90110d;
+}
+
+
+.btn:focus {
+  background: #90110d !important;
+  border: solid 2px #90110d !important;
+}
+
+.btn:active {
+  background: #90110d !important;
+  border: solid 2px #90110d !important;
+}
+
+.remove {
+  display: inline;
+}
+
+hr {
+  border-color: #1d376a;
+}
+
+.navbar-nav>li {
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar {
+  height: 50px;
+}
+
+.bg-light {
+  background-color: #8e1313 !important;
+}
+
+.form-inline .form-control {
+  width: 100%;
+}
+
+.card-container {
+  /* display: none; */
+}
+
+.card {
+  border: none;
+}
+
+.card-header {
+  border: solid 0.15rem #0d2243;
+  border-radius: 0.5rem !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom: none;
+}
+
+.card-body {
+  background: whitesmoke;
+  border: solid 0.15rem grey;
+  border-top: none;
+  border-radius: 0.5rem !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar {
+    height: auto;
+  }
+  .navbar-nav>li {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .search-box {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  .but {
+    width: -webkit-fill-available;
+  }
+}
+
+.text-center {
+  padding-bottom: 15px;
+}
+
+.card-header {
+  background-color: #173668;
+  color: white;
+}
+
+.modal-header {
+  background-color: #13346a;
+  color: white;
+}
+
+.close {
+  color: white;
+}
+
+.close:hover {
+  color: gray;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.navbar-toggler2{
+  padding: 0.55rem 0.675rem !important;
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+  outline: none;
+}
+
+option {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  background: white;
+}
+
+.highlight {
+  background: yellow !important;
+}
+
+#searchbar::placeholder {
+  text-align: left;
+  color: #495057;
+}
+
+#searchbar {
+  text-align: left;
+  color: #495057;
+}
+
+.picture {
+  width: auto;
+  height: auto;
+  max-width: 100% !important;
+  max-height: 450px !important;
+}
+
+.previous {
+  width: 1.5em !important;
+  height: 1.5em !important;
+  vertical-align: middle;
+  position: relative;
+  text-decoration: none !important;
+  /* display: inline-block !important; */
+  padding: .25rem .75rem;
+  margin: 0;
+  background-color: transparent;
+  color: grey;
+}
+
+.previous:hover {
+  color: grey;
+}
+
+.file-upload{
+
+}
+
+.add_announcement_date{
+  overflow-x: hidden !important;
+  word-wrap: break-word !important;
+  height: auto !important;
+}
+
+
+@media only screen and (max-width: 991px) {
+  .navbar {
+    height: auto;
+  }
+  .navbar-nav>li {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .search-box {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  .picture {
+    max-width: -webkit-fill-available;
+  }
+}

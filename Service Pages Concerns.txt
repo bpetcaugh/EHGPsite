@@ -1,0 +1,9 @@
+On the test server this if statement always returns false:
+	if ($_SESSION['username'] == $row['username'] && $_SESSION['password'] == $row['password']) {
+Also, it seems as if $_SESSION never returns anything not null
+This has been tried from multiple accounts.
+
+The admin pages should all work on the real server, the pages were tested on the test server with the above
+statement changed to:
+	if (true) { 
+Let me know if there are any problems

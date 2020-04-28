@@ -1,0 +1,41 @@
+<head>
+	<script>
+	function refresh(){
+		var formObject = document.forms['theForm'];
+		formObject.submit();
+	}
+	</script>
+</head>
+<?php
+function teacherSelector($page){
+	$teacher = '';
+	if (isset($_GET['teacher'])) {
+		$teacher = $_GET['teacher'];
+	}
+	echo"<form name='theForm' action='$page' method='get'>
+	<select name='teacher' onchange='refresh()'>
+	<option value = ' '>Choose a teacher</option>";
+
+	$rows = get_teachers();
+	foreach ($rows as $row) {
+		$name = $row['name'];
+		$id = $row['id'];
+		echo "<option value=" . $id;
+		if ($id == $teacher) {
+			echo " selected=selected";
+		}
+		echo ">" . $name . "</option>";
+	}
+	echo "</select></form>";
+	// foreach ($rows as $row) {
+	// 	echo $row['name'];
+	// }
+}
+function get_teachers(){
+	$db = get_database_connection();
+    $statement = $db->prepare("SELECT name, id FROM teacher");
+    $statement->execute();
+	$db= null;
+	return $statement->fetchAll();
+}
+?>
