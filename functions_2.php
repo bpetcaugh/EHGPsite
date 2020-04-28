@@ -28,7 +28,7 @@ function get_database_connection() {
     $host = "localhost";
     $dbname = "ehgp_data";
     $user = "ehgp_user";
-    $pass = "password";
+    $pass = "ehgp_password";
 
     return new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
 }
