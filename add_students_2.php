@@ -1,5 +1,5 @@
 <?PHP
-//Created by Ricky Wang
+//Created by Ricky Wang, alumni
 
 session_start();
 include 'functions_2.php';
