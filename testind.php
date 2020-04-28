@@ -10,6 +10,10 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error()); 
 }
 echo "Connected successfully"; 
+
+if (isset($_POST['password'])) {
+	if (login($_POST['username'], ($_POST['password'])))
+}
 ?>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -185,7 +189,7 @@ echo "Connected successfully";
 					</div>
 				</div>
 				<div class="d-flex justify-content-center form_container">
-					<form>
+					<form method="POST" action="#">
 						<div class="input-group mb-3">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-user"></i></span>
