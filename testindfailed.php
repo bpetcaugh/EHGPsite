@@ -77,9 +77,9 @@ if (isset($_POST['password'])) {
             //http://www.plus2net.com/php_tutorial/php_referrer.php
         }
     } 
-    else {
-        redirect("testindfailed.php?fail=1&announcement=" . $_GET['announcement'] . "&scheduleRoom=" . $_GET['scheduleRoom'] . "&absentee=" . $_GET['absentee'] . "&lockdown=" . $_GET['lockdown'] . "&late=" . $_GET['late'] . "&dress=" . $_GET['dress'] . "&test=" . $_GET['test'] . "&home=" . $_GET['home']);
-    }
+    //else {
+       // redirect("login_2.php?fail=1&announcement=" . $_GET['announcement'] . "&scheduleRoom=" . $_GET['scheduleRoom'] . "&absentee=" . $_GET['absentee'] . "&lockdown=" . $_GET['lockdown'] . "&late=" . $_GET['late'] . "&dress=" . $_GET['dress'] . "&test=" . $_GET['test'] . "&home=" . $_GET['home']);
+   // }
     
 } /**else if (check_logged_in()) {
     if ($_GET['announcement'] == 1) {
@@ -291,7 +291,13 @@ include 'includeInc_2.php';
 					</div>
                 </div>
 				<div class="d-flex justify-content-center form_container">
+                <!--<h1 class="display-3">EHGP</h1>-->
                 <form action=testind.php?announcement=' <?php //echo $_GET['announcement'] . "&scheduleRoom=" . $_GET['scheduleRoom'] . "&scheduleMeeting=" . $_GET['scheduleMeeting'] . "&absentee=" . $_GET['absentee'] . "&lockdown=" . $_GET['lockdown'] . "&late=" . $_GET['late'] . "&dress=" . $_GET['dress'] . "&test=" . $_GET['test'] . "&home=" . $_GET['home']; ?>' method='post' name='theForm'>
+                        <div class = "form-group">
+                            <div class="alert alert-danger">
+                                <strong>Login Failed</strong>
+                            </div>
+                        </div>
 						<div class="input-group mb-3">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-user"></i></span>
