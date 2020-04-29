@@ -298,21 +298,14 @@ include 'includeInc_2.php';
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-user"></i></span>
 							</div>
-							<input type=text name=username class="form-control input_user" value="" placeholder="Username">
+							<input type='text' name='username' class="form-control input_user" value="" placeholder="Username">
 						</div>
 						<div class="input-group mb-2">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-key"></i></span>
 							</div>
-							<input type=password name=password class="form-control input_pass" value="" placeholder="Password">
+							<input type='password' name='password' class="form-control input_pass" value="" placeholder="Password">
 						</div>
-						<div class="form-group">
-							<div class="custom-control custom-checkbox">
-								<input type="checkbox" class="custom-control-input" id="customControlInline">
-								<label class="custom-control-label" for="customControlInline">Remember me</label>
-							</div>
-						</div>
-					</form>
 				</div>
 				<div class="d-flex justify-content-center mt-3 login_container">
 					<button type=submit name=submit class="btn login_btn" value = Login>Login</button>
