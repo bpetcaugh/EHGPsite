@@ -38,7 +38,7 @@ function get_database_connection() {
  * Returns the base url of the website
  */
 function base_url() {
-    return "https://ehgp.holyghostprep.org/";
+  //  return "https://ehgp.holyghostprep.org/";
 }
 
 /**
