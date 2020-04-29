@@ -63,7 +63,7 @@ if (isset($_POST['password'])) {
         } else if ($_GET['test']) {
             redirect("test_2.php");
         } else if ($_GET['home']) {
-            redirect("index_2.php");
+            redirect("loader.php");
         } else if ($_GET['calendar']) {
             redirect("addcalendar_2.php");
         } else if ($_GET['rcalendar']) {

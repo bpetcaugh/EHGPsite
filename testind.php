@@ -63,7 +63,7 @@ if (isset($_POST['password'])) {
         } else if ($_GET['test']) {
             redirect("test_2.php");
         } else if ($_GET['home']) {
-            redirect("index_2.php");
+            redirect("loader.php");
         } else if ($_GET['calendar']) {
             redirect("addcalendar_2.php");
         } else if ($_GET['rcalendar']) {
@@ -73,7 +73,7 @@ if (isset($_POST['password'])) {
             echo $ref;
             if ($ref=="http://www.holyghostprep.org/page.cfm?p=1488") {
                 redirect("/trackandfield/index.php");
-            } else redirect("index_2.php");
+            } else redirect("loader.php");
             //http://www.plus2net.com/php_tutorial/php_referrer.php
         }
     } 

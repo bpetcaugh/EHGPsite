@@ -90,7 +90,7 @@ function dohtml_footer($shouldi) {
 function homeLogout(){
 	echo '<tr class="centeredButton"><td width="50%"></td>
 			
-			<td class="centered" colspan=2><a class="glossy-button blue" href="index_2.php">Home</a></td>
+			<td class="centered" colspan=2><a class="glossy-button blue" href="loader.php">Home</a></td>
 			<td width="50%"></td>
 			
 		</tr>
@@ -111,7 +111,7 @@ function homeLogoutService(){
 			
 		</tr><tr class="centeredButton"><td width="50%"></td>
 			
-			<td class="centered" colspan=2><a class="glossy-button blue" href="index_2.php">Main Index Home</a></td>
+			<td class="centered" colspan=2><a class="glossy-button blue" href="loader.php">Main Home</a></td>
 			<td width="50%"></td>
 			
 		</tr>

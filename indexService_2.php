@@ -1,6 +1,5 @@
+
 <?php
-//Reformatted by Lucas Nicolois
-//Css by John Dott
 session_start();
 include 'functions_2.php';
 $db = get_database_connection();
@@ -54,7 +53,7 @@ if (check_logged_in()) {
     tableRowSpace(); 
 	echo '</table><table class="centered">';
 	
-	makeButton("Home","index_2.php");
+	makeButton("Home","loader.php");
 	makeButton("Logout","logout_2.php");
     echo '</table>';
     $doneButtons = true;
