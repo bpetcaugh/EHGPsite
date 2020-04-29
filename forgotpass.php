@@ -37,4 +37,6 @@
     <p class="lead">Please email Mr. Jacobs at mjacobs@holyghostprep.org for assistance.</p>
     <p><a href="testind.php">Click here to return to the login page.</a></p>
   </div>
+<img src="forgotpassgif.gif" class="rounded float-left" alt="...">
+</div>
 </main>
