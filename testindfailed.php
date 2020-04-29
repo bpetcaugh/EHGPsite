@@ -77,9 +77,9 @@ if (isset($_POST['password'])) {
             //http://www.plus2net.com/php_tutorial/php_referrer.php
         }
     } 
-    else {
-        redirect("testindfailed.php?fail=1&announcement=" . $_GET['announcement'] . "&scheduleRoom=" . $_GET['scheduleRoom'] . "&absentee=" . $_GET['absentee'] . "&lockdown=" . $_GET['lockdown'] . "&late=" . $_GET['late'] . "&dress=" . $_GET['dress'] . "&test=" . $_GET['test'] . "&home=" . $_GET['home']);
-    }
+    //else {
+       // redirect("login_2.php?fail=1&announcement=" . $_GET['announcement'] . "&scheduleRoom=" . $_GET['scheduleRoom'] . "&absentee=" . $_GET['absentee'] . "&lockdown=" . $_GET['lockdown'] . "&late=" . $_GET['late'] . "&dress=" . $_GET['dress'] . "&test=" . $_GET['test'] . "&home=" . $_GET['home']);
+   // }
     
 } /**else if (check_logged_in()) {
     if ($_GET['announcement'] == 1) {
@@ -291,7 +291,13 @@ include 'includeInc_2.php';
 					</div>
                 </div>
 				<div class="d-flex justify-content-center form_container">
+                <!--<h1 class="display-3">EHGP</h1>-->
                 <form action=testind.php?announcement=' <?php //echo $_GET['announcement'] . "&scheduleRoom=" . $_GET['scheduleRoom'] . "&scheduleMeeting=" . $_GET['scheduleMeeting'] . "&absentee=" . $_GET['absentee'] . "&lockdown=" . $_GET['lockdown'] . "&late=" . $_GET['late'] . "&dress=" . $_GET['dress'] . "&test=" . $_GET['test'] . "&home=" . $_GET['home']; ?>' method='post' name='theForm'>
+                        <div class = "form-group">
+                            <div class="alert alert-danger">
+                                <strong>Login Failed</strong>
+                            </div>
+                        </div>
 						<div class="input-group mb-3">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-user"></i></span>
@@ -310,30 +316,12 @@ include 'includeInc_2.php';
 				</div>
 				<div class="mt-4">
 					<div class="d-flex justify-content-center links">
-						<a href="forgotModal">Forgot your password?</a>
+						<a href="#">Forgot your password?</a>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="forgotModal">
-  		<div class="modal-dialog" role="document">
-    		<div class="modal-content">
-      			<div class="modal-header">
-        			<h5 class="modal-title">Forgot your password?</h5>
-        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          				<span aria-hidden="true">&times;</span>
-        			</button>
-     			 </div>
-     			 <div class="modal-body">
-       				 <p>Modal body text goes here.</p>
-     			 </div>
-      			<div class="modal-footer">
-					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-				</div>
-    		</div>
-  		</div>
-	</div>
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
