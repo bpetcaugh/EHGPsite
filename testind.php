@@ -79,7 +79,8 @@ if (isset($_POST['password'])) {
     } else {
         redirect("login_2.php?fail=1&announcement=" . $_GET['announcement'] . "&scheduleRoom=" . $_GET['scheduleRoom'] . "&absentee=" . $_GET['absentee'] . "&lockdown=" . $_GET['lockdown'] . "&late=" . $_GET['late'] . "&dress=" . $_GET['dress'] . "&test=" . $_GET['test'] . "&home=" . $_GET['home']);
     }
-} else if (check_logged_in()) {
+    
+} /**else if (check_logged_in()) {
     if ($_GET['announcement'] == 1) {
         redirect("addannouncement_2.php");
     } else if ($_GET['scheduleRoom'] == 1) {
@@ -119,9 +120,9 @@ if (isset($_POST['password'])) {
         //http://www.plus2net.com/php_tutorial/php_referrer.php
     }
 }
-
+*/
 include 'includeInc_2.php';
-dohtml_header("Login");
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -289,18 +290,21 @@ dohtml_header("Login");
 					</div>
 				</div>
 				<div class="d-flex justify-content-center form_container">
-					<form method="POST" action="#">
+                <form action=testind.php?announcement=' <?php //echo $_GET['announcement'] . "&scheduleRoom=" . $_GET['scheduleRoom'] . "&scheduleMeeting=" . $_GET['scheduleMeeting'] . "&absentee=" . $_GET['absentee'] . "&lockdown=" . $_GET['lockdown'] . "&late=" . $_GET['late'] . "&dress=" . $_GET['dress'] . "&test=" . $_GET['test'] . "&home=" . $_GET['home']; ?>' method='post' name='theForm'>
+                    <?php if (isset($_GET['fail'])): ?>
+                        <font color=red>Login Failed</font><br>
+                    <?php endif; ?>
 						<div class="input-group mb-3">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-user"></i></span>
 							</div>
-							<input type="text" name="" class="form-control input_user" value="" placeholder="Username">
+							<input type=text name=username class="form-control input_user" value="" placeholder="Username">
 						</div>
 						<div class="input-group mb-2">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-key"></i></span>
 							</div>
-							<input type="password" name="" class="form-control input_pass" value="" placeholder="Password">
+							<input type=password name=password class="form-control input_pass" value="" placeholder="Password">
 						</div>
 						<div class="form-group">
 							<div class="custom-control custom-checkbox">
@@ -311,7 +315,7 @@ dohtml_header("Login");
 					</form>
 				</div>
 				<div class="d-flex justify-content-center mt-3 login_container">
-					<button type="button" name="button" class="btn login_btn">Login</button>
+					<button type=submit name=submit class="btn login_btn" value = Login>Login</button>
 				</div>
 				<div class="mt-4">
 					<div class="d-flex justify-content-center links">
