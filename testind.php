@@ -253,7 +253,7 @@ include 'includeInc_2.php';
   <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
   <div class="topnav-centered">
       <ul class="navbar-nav mr-auto">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="testind.php">
             <li class="nav-item">
             <img src="./firebird.png" width="30" height="30" class="d-inline-block align-top" alt="">
             EHGP
@@ -310,7 +310,7 @@ include 'includeInc_2.php';
 				</div>
 				<div class="mt-4">
 					<div class="d-flex justify-content-center links">
-						<a href="#">Forgot your password?</a>
+						<a href="forgotpass.php">Forgot your password or username?</a>
 					</div>
 				</div>
 			</div>
