@@ -298,13 +298,13 @@ include 'includeInc_2.php';
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-user"></i></span>
 							</div>
-							<input type="text" name="username" class="form-control input_user" value="" placeholder="Username">
+							<input type=text name=username class="form-control input_user" value="" placeholder="Username">
 						</div>
 						<div class="input-group mb-2">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-key"></i></span>
 							</div>
-							<input type="password" name="password" class="form-control input_pass" value="" placeholder="Password">
+							<input type=password name=password class="form-control input_pass" value="" placeholder="Password">
 						</div>
 						<div class="form-group">
 							<div class="custom-control custom-checkbox">
@@ -315,7 +315,7 @@ include 'includeInc_2.php';
 					</form>
 				</div>
 				<div class="d-flex justify-content-center mt-3 login_container">
-					<button type="button" name="button" class="btn login_btn" value = Login>Login</button>
+					<button type=submit name=submit class="btn login_btn" value = Login>Login</button>
 				</div>
 				<div class="mt-4">
 					<div class="d-flex justify-content-center links">
