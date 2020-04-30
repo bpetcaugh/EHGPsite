@@ -615,17 +615,17 @@ body {
             </a>
           </li>
           <li class="header-menu">
-            <span>Forms & More</span>
+            <span>Forms & Quicklinks</span>
           </li>
           <li>
             <a href="directory_3.php">
-              <i class="fa fa-book"></i>
+              <i class="fa fa-address-book"></i>
               <span>Student Directory</span>
             </a>
           </li>
           <li>
             <a href="indexService_2.php">
-              <i class="fa fa-folder"></i>
+              <i class="fa fa-universal-access"></i>
               <span>Service Menu</span>
             </a>
           </li>
@@ -637,7 +637,7 @@ body {
           </li>
           <li>
             <a href="NHSTutorRequest_2.php">
-              <i class="fa fa-folder"></i>
+              <i class="fa fa-graduation-cap"></i>
               <span>NHS Tutoring</span>
             </a>
           </li>
@@ -652,6 +652,33 @@ body {
                     <i class="fa fa-folder"></i>
                     <span>Schoology</span>
                 </a>
+            </li>
+            <li class="header-menu">
+            <span>Extra</span>
+          </li>
+          <li>
+            <a href="EHGPcomputerlab.php">
+                <i class="fa fa-desktop"></i>
+                <span>Computer Lab Usage</span>
+            </a>
+            </li>
+            <li>
+            <a href="https://www.startech.com/Cards-Adapters/Laptop-docking-stations/Universal-USB-3-Laptop-Docking-Station-Dual-Video-HDMI-DVI-with-Audio-Ethernet~USB3SDOCKHD" target="_blank">
+                <i class="fa fa-folder"></i>
+                <span>Docking Drivers</span>
+            </a>
+            </li>
+            <li>
+            <a href="Printing at HGP.pdf" target="_blank">
+                <i class="fa fa-print"></i>
+                <span>Printer Setup</span>
+            </a>
+            </li>
+            <li>
+            <a href="Student_Handbook2019-20.pdf" target="_blank">
+                <i class="fa fa-book"></i>
+                <span>Student Handbook</span>
+            </a>
             </li>
         
         </ul>
