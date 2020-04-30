@@ -9,3 +9,4 @@ if ($_SESSION['isTeacher'] ==  false) {
 }
 ?>
 
+<!-- are all admins teachers?-->
