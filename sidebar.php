@@ -565,7 +565,7 @@ body {
           </span>
         </div>
       </div>
-      <!-- sidebar-header  -->
+      <!-- sidebar-header  
       <div class="sidebar-search">
         <div>
           <div class="input-group">
@@ -578,7 +578,7 @@ body {
           </div>
         </div>
       </div>
-      <!-- sidebar-search  -->
+      sidebar-search  -->
       <div class="sidebar-menu">
         <ul>
           <li class="header-menu">
