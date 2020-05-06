@@ -609,6 +609,12 @@ body {
             </a>
           </li>
           <li>
+            <a href="indexService_2.php>
+              <i class="fa fa-bell"></i>
+              <span>Service Menu</span>
+            </a>
+          </li>
+          <li>
             <a href="chgpass_2.php" >
                 <i class="fa fa-book"></i>
                 <span>Change My Password</span>
@@ -633,6 +639,12 @@ body {
             <a href="addabsentee_2.php">
               <i class="fa fa-universal-access"></i>
               <span>Add Absentees</span>
+            </a>
+          </li>
+          <li>
+            <a href="addlate_2.php">
+              <i class="fa fa-car"></i>
+              <span>Add Late/span>
             </a>
           </li>
           <li>
@@ -702,7 +714,21 @@ body {
                 <span>View Support Tickets</span>
             </a>
             </li>
-        
+            <li class="header-menu">
+            <span>Extra</span>
+          </li>
+          <li>
+            <a href="directory_2.php">
+                <i class="fa fa-print"></i>
+                <span>Student Directory</span>
+            </a>
+            </li>
+            <li>
+            <a href="">
+                <i class="fa fa-print"></i>
+                <span>Observed Behaviors</span>
+            </a>
+            </li>
         </ul>
       </div>
       <!-- sidebar-menu  -->
