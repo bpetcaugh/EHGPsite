@@ -181,7 +181,7 @@ function get_teacher_room_from_id($db,$id) {
 	echo "<div style='tbody tr:nth-child(odd) {background-color: white;}'><table class='centered'><tr></tr>";
 	echo '<tr class="centeredButton"><td width="50%"></td>
 			
-			<td class="centered" colspan=2><a class="glossy-button blue" href="loader.php">Home</a></td>
+			<td class="centered" colspan=2><a class="glossy-button blue" href="TeacherLandingPage.php">Home</a></td>
 			<td width="50%"></td>
 			
 		</tr><tr></tr>';
