@@ -558,7 +558,7 @@ body {
         <div class="user-info">
           <span class="user-name"> <?php echo $_SESSION['name']; ?>
           </span>
-          <span class="user-role">Student</span>
+          <span class="user-role">Teacher</span>
           <span class="user-status">
             <i class="fa fa-circle"></i>
             <span>Online</span>
@@ -587,7 +587,7 @@ body {
           <li>
             <a href="StudentLandingPage.php">
               <i class="fa fa-bullhorn"></i>
-              <span>Announcements</span>
+              <span>Add/Read Announcements</span>
             </a>
           </li>
           <li>
