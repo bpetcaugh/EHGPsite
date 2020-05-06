@@ -1,5 +1,5 @@
 <?php 
-require 'StudentSidebar.php';
+require 'TeacherSidebar.php';
 ?>
 <!DOCTYPE html>
 <html>
