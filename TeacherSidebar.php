@@ -691,25 +691,25 @@ body {
             <span>Request Help</span>
           </li>
           <li>
-            <a href="parteach-ts_2.php">
+            <a href="support.php">
                 <i class="fa fa-print"></i>
                 <span>Tech Help</span>
             </a>
             </li>
             <li>
-            <a href="parteach-ts_2.php">
+            <a href="maintenancerequest.php">
                 <i class="fa fa-print"></i>
                 <span>Maintenance Request</span>
             </a>
             </li>
             <li>
-            <a href="parteach-ts_2.php">
+            <a href="viewmaintenance.php">
                 <i class="fa fa-print"></i>
                 <span>View Requests</span>
             </a>
             </li>
             <li>
-            <a href="parteach-ts_2.php">
+            <a href="viewtickets.php">
                 <i class="fa fa-print"></i>
                 <span>View Support Tickets</span>
             </a>
