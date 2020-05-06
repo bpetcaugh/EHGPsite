@@ -38,7 +38,7 @@
     <p><a href="testind.php">Click here to return to the login page.</a></p>
   </div>
 <p>
-    <a href = "https://youtu.be/dQw4w9WgXcQ?t=42" target="_blank">
+    <a href = "https://youtu.be/oHg5SJYRHA0?t=43" target="_blank">
         <img src="forgotpassgif.gif" class="rounded float-left" alt="...">
     </a>
 <p>
