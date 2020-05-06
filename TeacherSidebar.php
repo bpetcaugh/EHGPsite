@@ -609,6 +609,12 @@ body {
             </a>
           </li>
           <li>
+            <a href="chgpass_2.php" >
+                <i class="fa fa-book"></i>
+                <span>Change My Password</span>
+            </a>
+            </li>
+          <li>
             <a href="logout_2.php">
               <i class="fa fa-globe"></i>
               <span>Logout</span>
@@ -648,32 +654,27 @@ body {
             </a>
           </li>
             <li class="header-menu">
-            <span>Extra</span>
+            <span>Scheduling</span>
           </li>
           <li>
-            <a href="EHGPcomputerlab.php">
+            <a href="scheduleRoom_2.php">
                 <i class="fa fa-desktop"></i>
-                <span>Computer Lab Usage</span>
+                <span>Schedule Computer Labs</span>
             </a>
             </li>
             <li>
-            <a href="https://www.startech.com/Cards-Adapters/Laptop-docking-stations/Universal-USB-3-Laptop-Docking-Station-Dual-Video-HDMI-DVI-with-Audio-Ethernet~USB3SDOCKHD" target="_blank">
+            <a href="scheduleMeeting_2.php">
                 <i class="fa fa-folder"></i>
-                <span>Docking Drivers</span>
+                <span>Schedule Meeting Rooms</span>
             </a>
             </li>
             <li>
-            <a href="Printing at HGP.pdf" target="_blank">
+            <a href="parteach-ts_2.php">
                 <i class="fa fa-print"></i>
-                <span>Printer Setup</span>
+                <span>Parent Teacher Schedule</span>
             </a>
             </li>
-            <li>
-            <a href="Student_Handbook2019-20.pdf" target="_blank">
-                <i class="fa fa-book"></i>
-                <span>Student Handbook</span>
-            </a>
-            </li>
+            
         
         </ul>
       </div>
