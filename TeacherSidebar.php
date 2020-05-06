@@ -587,19 +587,19 @@ body {
           <li>
             <a href="StudentLandingPage.php">
               <i class="fa fa-bullhorn"></i>
-              <span>Add/Read Announcements</span>
-            </a>
-          </li>
-          <li>
-            <a href="stusched_2.php">
-              <i class="fa fa-clock"></i>
-              <span>View My Schedule</span>
+              <span>Announcements</span>
             </a>
           </li>
           <li>
             <a href="https://www.holyghostprep.org/calendar" target="_blank">
               <i class="fa fa-calendar"></i>
               <span>Calendar</span>
+            </a>
+          </li>
+          <li>
+            <a href="test_2.php">
+              <i class="fa fa-calendar"></i>
+              <span>Test Calendar</span>
             </a>
           </li>
           <li>
