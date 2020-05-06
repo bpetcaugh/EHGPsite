@@ -674,7 +674,34 @@ body {
                 <span>Parent Teacher Schedule</span>
             </a>
             </li>
-            
+            </li>
+            <li class="header-menu">
+            <span>Request Help</span>
+          </li>
+          <li>
+            <a href="parteach-ts_2.php">
+                <i class="fa fa-print"></i>
+                <span>Tech Help</span>
+            </a>
+            </li>
+            <li>
+            <a href="parteach-ts_2.php">
+                <i class="fa fa-print"></i>
+                <span>Maintenance Request</span>
+            </a>
+            </li>
+            <li>
+            <a href="parteach-ts_2.php">
+                <i class="fa fa-print"></i>
+                <span>View Maintenance Requests</span>
+            </a>
+            </li>
+            <li>
+            <a href="parteach-ts_2.php">
+                <i class="fa fa-print"></i>
+                <span>View Support Tickets</span>
+            </a>
+            </li>
         
         </ul>
       </div>
