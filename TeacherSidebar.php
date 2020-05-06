@@ -115,7 +115,7 @@ body {
 /*----------------sidebar-wrapper----------------*/
 
 .sidebar-wrapper {
-  width: 260px;
+  width: 280px;
   height: 100%;
   max-height: 100%;
   position: fixed;
@@ -705,7 +705,7 @@ body {
             <li>
             <a href="parteach-ts_2.php">
                 <i class="fa fa-print"></i>
-                <span>View Maintenance Requests</span>
+                <span>View Requests</span>
             </a>
             </li>
             <li>
