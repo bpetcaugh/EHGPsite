@@ -615,44 +615,38 @@ body {
             </a>
           </li>
           <li class="header-menu">
-            <span>Forms & Quicklinks</span>
+            <span>Absentees & Violations</span>
           </li>
           <li>
-            <a href="directory_3.php">
+            <a href="viewabsentee_2.php">
               <i class="fa fa-address-book"></i>
-              <span>Student Directory</span>
+              <span>View Absentees</span>
             </a>
           </li>
           <li>
-            <a href="indexService_2.php">
+            <a href="addabsentee_2.php">
               <i class="fa fa-universal-access"></i>
-              <span>Service Menu</span>
+              <span>Add Absentees</span>
             </a>
           </li>
           <li>
-            <a href="EHGPvehicle.php">
+            <a href="viewlate_2.php">
               <i class="fa fa-car"></i>
-              <span>Register Vehicle</span>
+              <span>View Lates</span>
             </a>
           </li>
           <li>
-            <a href="NHSTutorRequest_2.php">
+            <a href="viewdress.php">
               <i class="fa fa-graduation-cap"></i>
-              <span>NHS Tutoring</span>
+              <span>View Violations</span>
             </a>
           </li>
           <li>
-            <a href="https://holyghostprep.powerschool.com/public/home.html" target="_blank">
-                <i class="fa fa-folder"></i>
-                <span>Powerschool</span>
+            <a href="adddress_2.php">
+              <i class="fa fa-graduation-cap"></i>
+              <span>Add Violation</span>
             </a>
-            </li>
-            <li>
-                <a href="https://holyghostprep.schoology.com/login?&school=18711911" target="_blank">
-                    <i class="fa fa-folder"></i>
-                    <span>Schoology</span>
-                </a>
-            </li>
+          </li>
             <li class="header-menu">
             <span>Extra</span>
           </li>
