@@ -604,19 +604,19 @@ body {
           </li>
           <li>
             <a href="BellSchedules.pdf" target="_blank">
-              <i class="fa fa-bell"></i>
+              <i class="fa fa-universal-access"></i>
               <span>Bell Schedules</span>
             </a>
           </li>
           <li>
-            <a href="indexService_2.php>
+            <a href="indexService_2.php">
               <i class="fa fa-bell"></i>
               <span>Service Menu</span>
             </a>
           </li>
           <li>
             <a href="chgpass_2.php" >
-                <i class="fa fa-book"></i>
+                <i class="fa fa-key"></i>
                 <span>Change My Password</span>
             </a>
             </li>
@@ -631,37 +631,37 @@ body {
           </li>
           <li>
             <a href="viewabsentee_2.php">
-              <i class="fa fa-address-book"></i>
+              <i class="fa fa-id-badge"></i>
               <span>View Absentees</span>
             </a>
           </li>
           <li>
             <a href="addabsentee_2.php">
-              <i class="fa fa-universal-access"></i>
+              <i class="fa fa-calendar-plus"></i>
               <span>Add Absentees</span>
             </a>
           </li>
           <li>
             <a href="addlate_2.php">
-              <i class="fa fa-car"></i>
-              <span>Add Late/span>
+              <i class="fa fa-user-plus"></i>
+              <span>Add Late</span>
             </a>
           </li>
           <li>
             <a href="viewlate_2.php">
-              <i class="fa fa-car"></i>
+              <i class="fa fa-clock"></i>
               <span>View Lates</span>
             </a>
           </li>
           <li>
             <a href="viewdress.php">
-              <i class="fa fa-graduation-cap"></i>
+              <i class="fa fa-exclamation-triangle"></i>
               <span>View Violations</span>
             </a>
           </li>
           <li>
             <a href="adddress_2.php">
-              <i class="fa fa-graduation-cap"></i>
+              <i class="fa fa-exclamation-triangle"></i>
               <span>Add Violation</span>
             </a>
           </li>
@@ -676,13 +676,13 @@ body {
             </li>
             <li>
             <a href="scheduleMeeting_2.php">
-                <i class="fa fa-folder"></i>
+                <i class="fa fa-coffee"></i>
                 <span>Schedule Meeting Rooms</span>
             </a>
             </li>
             <li>
             <a href="parteach-ts_2.php">
-                <i class="fa fa-print"></i>
+                <i class="fa fa-user"></i>
                 <span>Parent Teacher Schedule</span>
             </a>
             </li>
@@ -692,25 +692,25 @@ body {
           </li>
           <li>
             <a href="support.php">
-                <i class="fa fa-print"></i>
+                <i class="fa fa-info-circle"></i>
                 <span>Tech Help</span>
             </a>
             </li>
             <li>
             <a href="maintenancerequest.php">
-                <i class="fa fa-print"></i>
+                <i class="fa fa-trash"></i>
                 <span>Maintenance Request</span>
             </a>
             </li>
             <li>
             <a href="viewmaintenance.php">
-                <i class="fa fa-print"></i>
+                <i class="fa fa-trash"></i>
                 <span>View Requests</span>
             </a>
             </li>
             <li>
             <a href="viewtickets.php">
-                <i class="fa fa-print"></i>
+                <i class="fa fa-info-circle"></i>
                 <span>View Support Tickets</span>
             </a>
             </li>
@@ -719,13 +719,13 @@ body {
           </li>
           <li>
             <a href="directory_2.php">
-                <i class="fa fa-print"></i>
+                <i class="fa fa-address-book"></i>
                 <span>Student Directory</span>
             </a>
             </li>
             <li>
-            <a href="">
-                <i class="fa fa-print"></i>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5DGvPSCIOTG3dv_TMEvjILO7TfyazIlaLdmyrCGf5Lkz_zA/formrestricted">
+                <i class="fa fa-eye"></i>
                 <span>Observed Behaviors</span>
             </a>
             </li>
