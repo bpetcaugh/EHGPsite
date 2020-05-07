@@ -649,7 +649,7 @@ body {
             </a>
           </li>
           <li>
-            <a href="viewdress.php">
+            <a href="viewdress_2.php">
               <i class="fa fa-exclamation-triangle"></i>
               <span>View Violations</span>
             </a>
