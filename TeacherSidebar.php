@@ -579,6 +579,7 @@ body {
         </div>
       </div>
       sidebar-search  -->
+      <a href="logout_2.php" class = "btn btn-outline-danger" role ="button">Logout</a>
       <div class="sidebar-menu">
         <ul>
           <li class="header-menu">
@@ -620,12 +621,6 @@ body {
                 <span>Change My Password</span>
             </a>
             </li>
-          <li>
-            <a href="logout_2.php">
-              <i class="fa fa-globe"></i>
-              <span>Logout</span>
-            </a>
-          </li>
           <li class="header-menu">
             <span>Absentees & Violations</span>
           </li>

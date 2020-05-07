@@ -579,6 +579,7 @@ body {
         </div>
       </div>
       sidebar-search  -->
+      <a href="logout_2.php" class = "btn btn-outline-danger" role ="button">Logout</a>
       <div class="sidebar-menu">
         <ul>
           <li class="header-menu">
@@ -606,12 +607,6 @@ body {
             <a href="BellSchedules.pdf" target="_blank">
               <i class="fa fa-bell"></i>
               <span>Bell Schedules</span>
-            </a>
-          </li>
-          <li>
-            <a href="logout_2.php">
-              <i class="fa fa-globe"></i>
-              <span>Logout</span>
             </a>
           </li>
           <li class="header-menu">
